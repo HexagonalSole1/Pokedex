@@ -1,0 +1,10 @@
+.DivTipos{
+
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+
+}

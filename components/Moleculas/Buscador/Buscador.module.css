@@ -1,0 +1,7 @@
+.DivBuscador{
+    display: flex;
+    gap: 2rem;
+    height: auto;
+    justify-content: center;
+    align-items: center;flex-wrap: wrap;
+}
