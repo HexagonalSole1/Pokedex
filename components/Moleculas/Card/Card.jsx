@@ -1,9 +1,16 @@
 import React from 'react'
 import "./Card.css"
 
+import Link from 'next/link'
+
 export const  Card = ({pokemon}) => {
   return (
+
+
+	
     <div className="CardPokemon">
+			<Link href={`/pokemon/${pokemon.id}`} className='Link'>
+
        	<div className="card_img">
 				<img
 					src={pokemon.sprites.other.dream_world.front_default}
@@ -21,8 +28,10 @@ export const  Card = ({pokemon}) => {
 					))}
 				</div>
 			</div>
+			</Link>
         
     </div>
+	
 
     
   )

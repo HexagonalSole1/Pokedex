@@ -30,6 +30,12 @@ body {
   background-color: #ffffff; /* Color de fondo */
 
 }
+a {
+	text-decoration: none; /* Quitar la decoración de subrayado */
+	color: inherit; /* Utilizar el color de texto heredado */
+	cursor: pointer; /* Cambiar el cursor a pointer al pasar el mouse */
+  }
+  
 ol, ul {
 	list-style: none;
 }

@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import Style from "./Buscador.module.css"
+import { PokemonContext } from '@/context/PokemonContext'
 
 function Buscador() {
+  const {setNombrePokemon} = useContext(PokemonContext);
+  const onChangeFuncion = ({target}) => {
+    setNombrePokemon(target.value)
+  }
+
+
   return (
-    <div>
-        <input type="text" className={Style.inputBuscador} />
-    </div>
+    <form>
+        <input type="text" className={Style.inputBuscador} onChange={onChangeFuncion}/>
+    </form>
   )
 }
 

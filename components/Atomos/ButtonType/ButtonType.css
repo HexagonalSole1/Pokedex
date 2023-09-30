@@ -24,6 +24,7 @@
 	--color-primary-hover: #83c5be;
 }
 
+
 .ButtonButtonType {
 
 	height: 60px;
@@ -42,6 +43,10 @@ button{
 	height: 60px;
 	width: 60px;
 	border-radius: 100px;
+	color: white;
+	box-shadow: 0 0px 20px var(--color-water);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 
 }
 

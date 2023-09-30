@@ -10,6 +10,11 @@
     
 }
 
+
+.card_list_pokemon:nth-child(1){
+}
+
+
 .card_pokemon {
 	cursor: pointer;
 	text-decoration: none;

@@ -9,11 +9,13 @@ var Logo1 = "/imgs/pokebolaNav.png";
 function Nav() {
   return (
 
-    <Link href="/">
+   
     <div className={Style.DivNav}>
 
 <div className={Style.DivNavLogo}>
+<a href="/">
 <ImagenLogo logo="/imgs/pokebolaNav.png" />
+</a>
 </div>
 <div className={Style.DivNavSecciones}>
 
@@ -23,7 +25,7 @@ function Nav() {
 </div>
     
     
-    </Link>
+  
     
   );
 }

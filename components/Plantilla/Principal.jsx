@@ -11,7 +11,7 @@ function Principal() {
 
 
 
- 
+
 
     return (
 
@@ -23,7 +23,7 @@ function Principal() {
             <section className={Style.DivContent}>
                 <div className={Style.DivBuscador}>
                     <Buscador />
-                    <Tipos/>
+                    <Tipos />
 
 
                 </div>
@@ -32,7 +32,7 @@ function Principal() {
                 <div className={Style.DivPokemon}>
 
                     <PokemonList />
-                    
+
 
 
                     <div className={Style.container_btn_load_more_container}>

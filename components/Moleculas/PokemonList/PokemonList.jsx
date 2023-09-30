@@ -8,7 +8,7 @@ export const PokemonList = () => {
 	const { allPokemons, loading, filteredPokemons } =
 		useContext(PokemonContext);
 
-        console.log("ALLPokemon")
+        console.log(allPokemons)
 
 	return (
 		<>
@@ -19,7 +19,7 @@ export const PokemonList = () => {
 					{filteredPokemons.length ? (
 						<>
 							{filteredPokemons.map(pokemon => (
-								<CardPokemon pokemon={pokemon} key={pokemon.id} />
+								<CardPokemon pokemon={pokemon} key={pokemon.id}  Style="Ba"/>
 							))}
 						</>
 					) : (

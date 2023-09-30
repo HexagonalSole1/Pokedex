@@ -7,15 +7,15 @@ import { PokemonProvider } from '@/context/PokemonProvider'
 
 export default function Home() {
   return (
-    
+
     <PokemonProvider>
-  <main className={styles.main}>
-      <Principal/>
-    </main>
+      <main className={styles.main}>
+        <Principal />
+      </main>
 
     </PokemonProvider>
-  
-    
+
+
 
   )
 }

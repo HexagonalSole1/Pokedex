@@ -7,136 +7,130 @@ function Tipos() {
 
     <div className={Style.DivTipos}>
 
-// Botones
-<ButtonType
-  clase="Buttongrass"
-  titulo="Planta"
-  name='grass'
-  id='grass'
-/>
 
-<ButtonType
-  clase="Buttonfire"
-  titulo="Fuego"
-  name='fire'
-  id='fire'
-/>
+      <ButtonType
+        clase="Buttongrass"
+        titulo="Planta"
+        name='grass'
+        id='grass'
+      />
 
-<ButtonType
-  clase="Buttonbug"
-  titulo="Bicho"
-  name='bug'
-  id='bug'
-/>
+      <ButtonType
+        clase="Buttonfire"
+        titulo="Fuego"
+        name='fire'
+        id='fire'
+      />
 
-<ButtonType
-  clase="Buttonfairy"
-  titulo="Hada"
-  name='fairy'
-  id='fairy'
-/>
+      <ButtonType
+        clase="Buttonbug"
+        titulo="Bicho"
+        name='bug'
+        id='bug'
+      />
 
-<ButtonType
-  clase="Buttondragon"
-  titulo="Dragón"
-  name='dragon'
-  id='dragon'
-/>
+      <ButtonType
+        clase="Buttonfairy"
+        titulo="Hada"
+        name='fairy'
+        id='fairy'
+      />
 
-<ButtonType
-  clase="Buttonwater"
-  titulo="Agua"
-  name='water'
-  id='water'
-/>
+      <ButtonType
+        clase="Buttondragon"
+        titulo="Dragón"
+        name='dragon'
+        id='dragon'
+      />
 
-<ButtonType
-  clase="Buttonground"
-  titulo="Tierra"
-  name='ground'
-  id='ground'
-/>
 
-<ButtonType
-  clase="Buttonnormal"
-  titulo="Normal"
-  name='normal'
-  id='normal'
-/>
+      <ButtonType
+        clase="Buttonground"
+        titulo="Tierra"
+        name='ground'
+        id='ground'
+      />
 
-<ButtonType
-  clase="Buttonpsychic"
-  titulo="Psíquico"
-  name='psychic'
-  id='psychic'
-/>
+      <ButtonType
+        clase="Buttonnormal"
+        titulo="Normal"
+        name='normal'
+        id='normal'
+      />
 
-<ButtonType
-  clase="Buttonsteel"
-  titulo="Acero"
-  name='steel'
-  id='steel'
-/>
+      <ButtonType
+        clase="Buttonpsychic"
+        titulo="Psíquico"
+        name='psychic'
+        id='psychic'
+      />
 
-<ButtonType
-  clase="Buttondark"
-  titulo="Siniestro"
-  name='dark'
-  id='dark'
-/>
+      <ButtonType
+        clase="Buttonsteel"
+        titulo="Acero"
+        name='steel'
+        id='steel'
+      />
 
-<ButtonType
-  clase="Buttonelectric"
-  titulo="Eléctrico"
-  name='electric'
-  id='electric'
-/>
+      <ButtonType
+        clase="Buttondark"
+        titulo="Siniestro"
+        name='dark'
+        id='dark'
+      />
 
-<ButtonType
-  clase="Buttonfighting"
-  titulo="Lucha"
-  name='fighting'
-  id='fighting'
-/>
+      <ButtonType
+        clase="Buttonelectric"
+        titulo="Eléctrico"
+        name='electric'
+        id='electric'
+      />
 
-<ButtonType
-  clase="Buttonflying"
-  titulo="Volador"
-  name='flying'
-  id='flying'
-/>
+      <ButtonType
+        clase="Buttonfighting"
+        titulo="Lucha"
+        name='fighting'
+        id='fighting'
+      />
 
-<ButtonType
-  clase="Buttonice"
-  titulo="Hielo"
-  name='ice'
-  id='ice'
-/>
+      <ButtonType
+        clase="Buttonflying"
+        titulo="Volador"
+        name='flying'
+        id='flying'
+      />
 
-<ButtonType
-  clase="Buttonpoison"
-  titulo="Veneno"
-  name='poison'
-  id='poison'
-/>
+      <ButtonType
+        clase="Buttonice"
+        titulo="Hielo"
+        name='ice'
+        id='ice'
+      />
 
-<ButtonType
-  clase="Buttonrock"
-  titulo="Roca"
-  name='rock'
-  id='rock'
-/>
+      <ButtonType
+        clase="Buttonpoison"
+        titulo="Veneno"
+        name='poison'
+        id='poison'
+      />
 
-<ButtonType
-  clase="Buttonwater"
-  titulo="Agua"
-  name='water'
-  id='water'
-/>
+      <ButtonType
+        clase="Buttonrock"
+        titulo="Roca"
+        name='rock'
+        id='rock'
+      />
+
+      <ButtonType
+        clase="Buttonwater"
+        titulo="Agua"
+        name='water'
+        id='water'
+      />
 
 
     </div>
-  
+
   )
 }
 

@@ -1,9 +1,10 @@
 'use client'
 import { useEffect, useState } from 'react';
 import { useForm } from '../hook/useForm';
-import { PokemonContext } from './PokemonContext';
+import { PokemonContext } from '../context/PokemonContext';
 
 export const PokemonProvider = ({ children }) => {
+  const [nombrePokemon, setNombrePokemon] = useState('')
   const [allPokemons, setAllPokemons] = useState([]);
   const [globalPokemons, setGlobalPokemons] = useState([]);
   const [offset, setOffset] = useState(0);
@@ -59,10 +60,13 @@ export const PokemonProvider = ({ children }) => {
 
   // Llamar a un pokemon por ID
   const getPokemonByID = async (id) => {
+    const newData = []
     const baseURL = 'https://pokeapi.co/api/v2/';
 
     const res = await fetch(`${baseURL}pokemon/${id}`);
     const data = await res.json();
+    await newData.push(data)
+    setAllPokemons(newData)
     return data;
   };
 
@@ -142,7 +146,7 @@ export const PokemonProvider = ({ children }) => {
         .map((type) => type.type.name)
         .includes(type)
     );
-  
+
     // Actualiza el estado filteredPokemons con los resultados filtrados
     setfilteredPokemons(resultadosFiltrados);
   };
@@ -150,6 +154,8 @@ export const PokemonProvider = ({ children }) => {
   return (
     <PokemonContext.Provider
       value={{
+        nombrePokemon, 
+        setNombrePokemon,
         valueSearch,
         onInputChange,
         onResetForm,
@@ -169,7 +175,7 @@ export const PokemonProvider = ({ children }) => {
         // Función de filtro por botón
         handleFilterButtonClick,
         // Función de filtro por tipo
-      handleFilterType, // Agrega esta función al contexto
+        handleFilterType, // Agrega esta función al contexto
 
       }}
     >
